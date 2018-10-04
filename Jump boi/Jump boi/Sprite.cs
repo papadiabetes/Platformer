@@ -85,6 +85,10 @@ namespace Jump_boi
         {
             if (state == true)
             {
+                effects = SpriteEffects.FlipHorizontally;
+            }
+            else
+            {
                 effects = SpriteEffects.None;
             }
 
